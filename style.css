@@ -1,0 +1,47 @@
+.head-1{
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 15px 0px;
+    border: 5px solid #ffff00;
+    background-color: #000000da;
+    color: #ffffff;
+}
+
+.head-2{
+    text-align: center;
+    padding-top: 15px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+}
+
+.Heads{
+    border: 3px solid #ffff00;
+    font-size: 1.2rem;
+    padding: 12px 20px;
+    background-color: #000000da;
+    color: #ffffff;
+}
+
+.Tails{
+    border: 3px solid #ffff00;
+    font-size: 1.2rem;
+    padding: 12px 20px;
+    background-color: #000000da;
+    color: #ffffff;
+}
+
+.result{
+    display: flex;
+    justify-content: center;
+}
+
+.answer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
