@@ -4,6 +4,8 @@ var button_1 = document.querySelector ("#button_1");
 var button_2 = document.querySelector ("#button_2");
 var image = document.querySelector ("img");
 var result = document.querySelector ("#result");
+var counting = document.querySelector ("#counting");
+var num = 0;
 
 function result_Toss(toss_answer) {
     var toss_Num = Math.random() * 2;
@@ -23,5 +25,12 @@ function result_Toss(toss_answer) {
     }
     else{
         image.src = "./assets/Tails Coin.jpg";
+    }
+
+    num++;
+    counting.innerHTML = "0" + num;
+
+    if (num > 9) {
+        counting.innerHTML = num;
     }
 }
